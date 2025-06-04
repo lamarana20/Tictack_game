@@ -76,14 +76,14 @@ const App = () => {
 
         <ol className="flex flex-col sm:flex-row justify-between items-center mb-4 p-2 sm:p-3 bg-gray-100 rounded gap-2 sm:gap-4">
           <Player
-            initialName={player["X"]}
+            initialName={player.X}
             symbol="X"
             isActive={activePlayer === "X"}
             onChangeName={handleChangePlayerName}
           />
 
           <Player
-            initialName={player["O"]}
+            initialName={player.O}
             symbol="O"
             isActive={activePlayer === "O"}
             onChangeName={handleChangePlayerName}
